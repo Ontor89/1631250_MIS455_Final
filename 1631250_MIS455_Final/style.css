@@ -1,0 +1,54 @@
+
+.input-box{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+@media only screen and (max-width: 1024px) and (min-width:768px)  {
+    
+    .main-container{
+        grid-template-columns: 280px 280px;
+    }
+
+    .navclass{
+        grid-template-columns: 280px 280px;
+
+    }
+
+    .footerclass{
+        grid-template-columns: 280px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 896px){
+    
+    .main-container{
+        grid-template-columns: 280px;
+    }
+
+    .navclass{
+        grid-template-columns: 280px;
+
+    }
+    .footerclass{
+        grid-template-columns: 280px;
+
+    }
+}
+body {
+    background: url('https://www.foodandwine.com/thmb/nDBGGuZzVOHIUkLT_fWorNv3nS8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Tamarind-Chicken-FT-RECIPE0522-80072d93f7bc4bc7abf1dcf5b5317b0c.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color:aliceblue;
+    font-family: 'Open Sans', sans-serif;
+  }
+ 
